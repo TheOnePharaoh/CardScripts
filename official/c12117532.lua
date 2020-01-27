@@ -71,5 +71,5 @@ function s.atkop(e,tp,eg,ep,ev,re,r,rp)
 	end
 end
 function s.atkval(e,c)
-	return c:GetFlagEffect(id)*500
+	return c:GetFlagEffect(id)*-500
 end
